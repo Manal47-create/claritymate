@@ -1,0 +1,14 @@
+# Ignore Python virtual environments
+.venv/
+
+# Ignore secret service account key
+.env
+firebase_config.json
+service_account_key.json
+
+# Bytecode and cache files
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
